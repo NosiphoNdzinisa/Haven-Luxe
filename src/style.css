@@ -5,8 +5,69 @@
 }
 
 body {
-    font-family:;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #f5f3f0;
     color: #333;
     line-height: 1.6;
+    font-size: 16px;
+}
+
+.hero {
+  background:
+  url('../images/house-hero.jpg') no-repeat center center/cover;
+  height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.hero-text {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 32px;
+  border-radius: 12px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  color: #3a3a3a;
+}
+
+.hero p {
+  margin: 16px 0;
+  font-size: 20px;
+}
+
+.btn {
+  background: #c0a377;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.features {
+  padding: 48px 24px;
+  text-align: center;
+}
+.features h2 {
+  font-size: 28px;
+  margin-bottom: 32px;
+}
+
+.feature-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+  margin-top: 32px;
+}
+
+.feature-card {
+  background: #fff;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
