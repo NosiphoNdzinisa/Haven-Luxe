@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="src/style.css" />
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
 rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+rel="stylesheet" />
 </head>
 <body>
 <div class="container">
@@ -33,16 +35,16 @@ rel="stylesheet">
 <section class="gallery">
 <h2>Inside Haven Luxe</h2>
 <div class="gallery-grid">
-<img src="images/gallery1.jpg" alt="Garden" />
-<img src="images/gallery2.jpg" alt="Reading Nook" />
-<img src="images/gallery3.jpg" alt="Art Room" />
-<img src="images/gallery4.jpg" alt="Infinity Pool" />
+<img src="images/gallery1.jpg" alt="Garden" data-aos="fade-up" />
+<img src="images/gallery2.jpg" alt="Reading Nook" data-aos="fade-up" />
+<img src="images/gallery3.jpg" alt="Art Room" data-aos="fade-up" />
+<img src="images/gallery4.jpg" alt="Infinity Pool" data-aos="fade-up" />
 </div>
 </section>
 <section class="dream-why">
 <p>
 Haven Luxe is a peaceful sanctuary that blends modern design with natural serenity.
-From the garden where I can pray and journal, to the cozy reading nook and the art Room
+From the garden where I can pray and journal, to the cozy reading nook and the art room
 filled with light - this home reflects everything I value: peace, creativity, and purpose.
 </p>
 <ul>
@@ -69,6 +71,9 @@ View my journey on
 </footer>
 
 <script src="src/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init();
+</script>
 </div>
 </body>
 </html>
