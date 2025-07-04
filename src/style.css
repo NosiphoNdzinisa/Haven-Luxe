@@ -176,3 +176,23 @@ button {
   cursor: pointer;
   font-size: 16px;
 }
+
+.site-footer {
+  background-color: #f8f5f1;
+  text-align: center;
+  padding: 32px 16px;
+  font-size: 14px;
+  color: #444;
+  border-top: 1px solid #ddd;
+  margin-top: 64px;
+}
+
+.site-footer a {
+  color: #967038;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3 ease;
+}
+.site-footer a:hover {
+  color: #967038;
+}
