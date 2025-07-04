@@ -57,6 +57,21 @@ text-align: center;
   font-size: 16px;
 }
 
+.say-hi-btn {
+  padding: 12px 24px;
+  background-color: #494949;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background 0.3s ease;
+}
+
+.say-hi-btn:hover {
+  background-color: #555;
+}
+
 .features {
   padding: 48px 24px;
   text-align: center;
