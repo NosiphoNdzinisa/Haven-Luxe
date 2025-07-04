@@ -22,7 +22,7 @@ body {
 
 .hero {
   background:
-  url('../images/house-hero.jpg') no-repeat center center/cover;
+  url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/169/615/original/house-hero.jpg?1751662545pg') no-repeat center center/cover;
   height: 100vh;
 display: flex;
 align-items: center;
@@ -76,6 +76,15 @@ text-align: center;
   padding: 48px 24px;
   text-align: center;
 }
+
+.dream-subtitle {
+font-size: 12px;
+color: #9e8c7c;
+font-style: italic;
+display: block;
+margin-top: 6px;
+}
+
 .features h2 {
   font-size: 28px;
   margin-bottom: 32px;
@@ -83,13 +92,14 @@ text-align: center;
 
 .feature-grid {
   display: grid;
+  color: ;
   gap: 16px;
   grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
   margin-top: 32px;
 }
 
 .feature-card {
-  background: #fff;
+  background: #ececeb;
   padding: 32px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -139,12 +149,14 @@ text-align: center;
 
 .dream-why p {
   font-size: 18px;
+  color: #494949;
   max-width: 600px;
   margin: 0 auto 24px;
 }
 
 .dream-why ul {
   list-style: none;
+  color: #494949;
   padding-left: 0;
   margin: 0 auto 24px;
   max-width: 400px;
@@ -153,14 +165,14 @@ text-align: center;
 
 .dream-why li {
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 8px;
 }
 
 .button-link {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #c0a377;
+  background-color: #494949;
   color: white;
   text-decoration: none;
   border-radius: 8px;
