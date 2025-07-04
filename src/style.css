@@ -92,7 +92,6 @@ margin-top: 6px;
 
 .feature-grid {
   display: grid;
-  color: ;
   gap: 16px;
   grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
   margin-top: 32px;
@@ -187,6 +186,21 @@ button {
   border-radius: 8px;
   cursor: pointer;
   font-size: 16px;
+}
+
+.music-btn {
+margin-top: 16px;
+padding: 8px 14px;
+background-color: #c0a377;
+color: white;
+border-radius: 8px;
+font-size: 16px;
+cursor: pointer;
+transition: background 0.3 ease;
+}
+
+.music-btn:hover {
+background-color: #8c6e4a;
 }
 
 .site-footer {
